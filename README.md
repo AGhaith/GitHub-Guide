@@ -53,16 +53,61 @@ And this is **exactly** why GitHub exists.
 ## **Git Terminology You Need to Know**
 Before we get into how to actually use Git, let’s go over some key terms you’ll encounter:
 
+- **Repository (Repo):** A folder that contains your project files and the entire history of changes tracked by Git.
+- **Commit:** A snapshot of your project at a specific point in time. Think of it as a save point in a video game.
+- **Branch:** A separate version of your project where you can work on new features without affecting the main code.
+- **Merge:** Combining changes from one branch into another.
+- **Clone:** Making a copy of an existing Git repository.
+- **Pull Request (PR):** A request to merge changes from one branch into another, commonly used in team collaborations.
+- **Push & Pull:** "Push" sends your changes to GitHub, while "Pull" fetches updates from GitHub to your local machine.
 
-## **Repos – The Thing You Work In**  
 
-A **repository** (repo) is **just a folder that Git watches**. Nothing more, nothing less.  
+# **Understanding Files, Folders, and GitHub Repositories**
 
-To create a new repo, you tell Git:  
-```sh
-git init
-```
-Now Git starts tracking every change in that folder.  
+## **Files & Folders**
+
+A **file** is stored data—code, text, images, etc. A **folder** (or **directory**) organizes multiple files, keeping things tidy.
+
+💡 **Tip:** In the terminal, "changing directories" (`cd my_project`) means moving between folders.
+
+## **Organizing Files & Folders**
+
+Avoid a messy desktop that looks like a **pile of hot garbage**. Instead:
+
+- Use clear names: `project_plan.txt` (not `final_final.docx`)
+- Avoid spaces: use `_` or `-` like `my_project` or `my-project`
+- Store projects properly: Keep GitHub projects in a dedicated folder.
+
+---
+
+## **What is a Repository (Repo)?**
+
+A **GitHub repository** is a special folder for your project, tracked with Git. It stores your code, remembers changes, and allows collaboration.
+
+## **Installing Git & Using the Terminal**
+
+Before creating a repo with Git, you need to **install Git**:
+
+- **Windows:** Download from [git-scm.com](https://git-scm.com) and install.
+- **Mac:** Use `brew install git` (requires Homebrew).
+
+💡 **Tip:** Git Bash, PowerShell, and CMD are used to type commands. They let you navigate files and run Git commands.
+
+## **Creating a Repository Using Git Bash**
+
+Once Git is installed, open **Git Bash** and run:
+
+1. Navigate to your project folder:
+   ```sh
+   cd path/to/your/project
+   ```
+2. Initialize Git:
+   ```sh
+   git init "repo_name"
+   ```
+   This creates a `.git` folder, making it a Git-tracked repo.
+
+Now you have created a repo called `repo_name`, but remember, until this point, we haven't said anything about GitHub. We are just talking about Git, which means we are still local (offline), and nothing is on the web.
 
 ---
 
