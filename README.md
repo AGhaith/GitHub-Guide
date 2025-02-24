@@ -61,14 +61,25 @@ Before we get into how to actually use Git, let’s go over some key terms you�
 - **Pull Request (PR):** A request to merge changes from one branch into another, commonly used in team collaborations.
 - **Push & Pull:** "Push" sends your changes to GitHub, while "Pull" fetches updates from GitHub to your local machine.
 
+---
 
-# **Understanding Files, Folders, and GitHub Repositories**
+## **Installing Git & Using the Terminal**
 
-## **Files & Folders**
+Before creating a repo with Git, you need to **install Git**:
+
+- **Windows:** Download from [git-scm.com](https://git-scm.com) and install.
+- **Mac:** Use `brew install git` (requires Homebrew).
+
+💡 **Tip:** Git Bash, PowerShell, and CMD are used to type commands. They let you navigate files and run Git commands.
+
+
+# **Files & Folders**
 
 A **file** is stored data—code, text, images, etc. A **folder** (or **directory**) organizes multiple files, keeping things tidy.
 
 💡 **Tip:** In the terminal, "changing directories" (`cd my_project`) means moving between folders.
+
+---
 
 ## **Organizing Files & Folders**
 
@@ -80,18 +91,9 @@ Avoid a messy desktop that looks like a **pile of hot garbage**. Instead:
 
 ---
 
-## **What is a Repository (Repo)?**
+# **What is a Repository (Repo)?**
 
 A **GitHub repository** is a special folder for your project, tracked with Git. It stores your code, remembers changes, and allows collaboration.
-
-## **Installing Git & Using the Terminal**
-
-Before creating a repo with Git, you need to **install Git**:
-
-- **Windows:** Download from [git-scm.com](https://git-scm.com) and install.
-- **Mac:** Use `brew install git` (requires Homebrew).
-
-💡 **Tip:** Git Bash, PowerShell, and CMD are used to type commands. They let you navigate files and run Git commands.
 
 ## **Creating a Repository Using Git Bash**
 
