@@ -153,15 +153,52 @@ This command tells Git to commit everything that is **staged** and save that co
 
 ---
 
-# **Push – Uploading Your Work**  
+# **Publishing Your Local Repository to GitHub**  
 
-A commit only saves **locally**. To actually share it, you **push** it to GitHub.  
+Right now, your project only exists on your computer. To **publish** it, you need to upload it to GitHub.  
 
-**Command:**  
+---
+
+## **Step 1: Create a Repository on GitHub**  
+
+1. Go to [GitHub](https://github.com/) and log in.  
+2. Click the **"+"** icon (top-right) → **"New repository"**.  
+3. Name your repository (it can match your local folder name).  
+4. **DO NOT** check “Initialize with a README” (you already have one).  
+5. Click **"Create repository"**—GitHub will now show you some commands.  
+
+---
+
+## **Step 2: Link Your Local Repo to GitHub**  
+
+In your terminal (inside your project folder), run:  
+```sh
+git remote add origin https://github.com/your-username/repo-name.git
+```
+This tells Git, **"Hey, this project is connected to this GitHub repo."**  
+
+💡 **You only need to do this once per project.**  
+
+---
+
+## **Step 3: Push Your Code Online**  
+
+Now, upload your code:  
+```sh
+git branch -M main  # Ensures you're on the 'main' branch
+git push -u origin main
+```
+This **publishes** your project to GitHub. **Congrats, it’s online!** 🎉  
+
+---
+
+## **Pushing Changes in the Future**  
+
+After making new commits, upload them with:  
 ```sh
 git push
 ```
-Now your teammates can see (and pull) your latest changes.  
+This updates your GitHub repo with the latest changes.
 
 ---
 
