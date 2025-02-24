@@ -112,34 +112,44 @@ Once Git is installed, open **Git Bash** and run:
 Now you have created a repo called `repo_name`, but remember, until this point, we haven't said anything about GitHub. We are just talking about Git, which means we are still local (offline), and nothing is on the web.
 
 ---
+# **Commits – Saving Your Work**
 
-# **Commits – Saving Your Work**  
+A **commit** is like a save point in a video game. Every time you commit, you take a snapshot of your project so you can **go back if something breaks**.
+Please remember that after committing, that save point is saved locally and is **not online** yet.
 
-A **commit** is like a save point in a video game. Every time you commit, you take a snapshot of your project so you can **go back if something breaks**.  
+## **Making a Commit**
 
-**Command:**  
+Before committing, you need to **stage** your changes:
+When you commit, Git looks to see what you have staged and commits that. It **doesn’t** just commit everything.
+
+```sh
+git add .
+```
+
+`add` is the command you use when you want to stage a file. `git add .` means stage everything.
+you can also stage only one file.
+```sh
+git add <filename>
+```
+If you don’t stage, **you can’t commit**.  
+
+## **Now, commit your changes:** 
+
+Each and every commit has a message, and **THANKFULLY**, Git doesn’t allow you to make a commit without a message. To put a message, write:
+
 ```sh
 git commit -m "Short, clear message explaining what you did"
 ```
-🚨 **DON’T** write useless messages like `"commit"`,"`c`",`"final final"` or `"idk what this does"`. **Make them useful PLEASE**.  
 
----
+This command tells Git to commit everything that is **staged** and save that commit with that message. So in the future, when your code becomes a mess (and it will), and you want to go back to a certain point, you can choose that commit by its message.
 
-# **Staging – Choosing What to Commit**  
+🚨 **DON’T** write useless messages like `"commit"`, `"c"`, `"final final"`, or `"idk what this does"`. **Make them useful, PLEASE.** Because future you won’t remember what `fix` means.
 
-Before committing, you **stage** files. Think of it like packing a suitcase—you decide which changes go into the next commit.  
+💡 **Good commit message examples:**\
+✅ `"Fixed login bug by updating validation"`\
+✅ `"Added navbar and improved styling"`\
+✅ `"Refactored database connection logic"`
 
-**Commands:**  
-- Stage one file:  
-  ```sh
-  git add <filename>
-  ```
-- Stage everything:  
-  ```sh
-  git add .
-  ```  
-
-If you don’t stage, **you can’t commit**.  
 
 ---
 
