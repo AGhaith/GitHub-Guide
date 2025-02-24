@@ -113,7 +113,7 @@ Now you have created a repo called `repo_name`, but remember, until this point, 
 
 ---
 
-## **Commits – Saving Your Work**  
+# **Commits – Saving Your Work**  
 
 A **commit** is like a save point in a video game. Every time you commit, you take a snapshot of your project so you can **go back if something breaks**.  
 
@@ -125,7 +125,7 @@ git commit -m "Short, clear message explaining what you did"
 
 ---
 
-## **Staging – Choosing What to Commit**  
+# **Staging – Choosing What to Commit**  
 
 Before committing, you **stage** files. Think of it like packing a suitcase—you decide which changes go into the next commit.  
 
@@ -143,7 +143,7 @@ If you don’t stage, **you can’t commit**.
 
 ---
 
-## **Push – Uploading Your Work**  
+# **Push – Uploading Your Work**  
 
 A commit only saves **locally**. To actually share it, you **push** it to GitHub.  
 
@@ -155,7 +155,7 @@ Now your teammates can see (and pull) your latest changes.
 
 ---
 
-## **Pull – Getting the Latest Changes**  
+# **Pull – Getting the Latest Changes**  
 
 If someone else updates the project on GitHub, you **pull** those changes to stay up to date.  
 
@@ -167,7 +167,7 @@ Without pulling first, you **risk conflicts** when pushing your changes.
 
 ---
 
-## **Branches – Working Without Messing Up the Main Project**  
+# **Branches – Working Without Messing Up the Main Project**  
 
 A **branch** is like an alternate universe for your code. You can experiment without screwing up the main project.  
 
@@ -187,7 +187,7 @@ A **branch** is like an alternate universe for your code. You can experiment wit
 
 ---
 
-## **Merge – Bringing Everything Back Together**  
+# **Merge – Bringing Everything Back Together**  
 
 Once your branch is ready, you **merge** it into the main project.  
 
@@ -211,7 +211,7 @@ How to fix it:
 
 ---
 
-## **Doing Everything in VSCode**  
+# **Doing Everything in VSCode**  
 
 If typing commands feels like **too much work**, VSCode has **Git built in**.  
 
