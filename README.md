@@ -490,6 +490,6 @@ Branches let you work on new features without affecting the main code. Here’s 
 
 Git & GitHub **aren’t optional**—if you’re serious about coding, you need them. Now go **initialize a repo**, commit something, and push your first project.
 
-# Author
-## Ahmed Ghaith
+## Author
+# Ahmed Ghaith
 
