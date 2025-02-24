@@ -241,16 +241,95 @@ git push
 And that’s it! Your code is safely stored online. 🚀
 
 ---
+# **Pulling from GitHub – Keeping Your Work Updated**
 
-# **Pull – Getting the Latest Changes**  
+So far, you’ve learned how to **push** your local changes to GitHub. But what if something changes on GitHub? Maybe:
 
-If someone else updates the project on GitHub, you **pull** those changes to stay up to date.  
+- You’re working with a team, and someone else pushed new code.
+- You made changes from another device.
+- You edited a file directly on GitHub.
 
-**Command:**  
+To **get the latest version** of your project from GitHub to your local machine, you need to **pull**.
+
+---
+
+## **What is Pulling?**
+
+**Pulling** brings the latest updates from GitHub to your local project. It ensures your code stays **in sync** with the remote version.
+
+### **Always Pull Before Pushing**
+
+Before pushing new changes, **always** pull first to avoid conflicts:
+
 ```sh
-git pull
+git pull origin main
 ```
-Without pulling first, you **risk conflicts** when pushing your changes.  
+
+This command fetches the latest updates from GitHub and merges them into your local project.
+
+---
+
+## **Pulling Step-by-Step**
+
+1. **Make sure you're inside your project folder:**
+
+   ```sh
+   cd path/to/your/project
+   ```
+
+2. **Check for updates from GitHub:**
+
+   ```sh
+   git pull origin main
+   ```
+
+   If there are no new changes, Git will say:
+
+   ```
+   Already up to date.
+   ```
+
+   If there are updates, Git will download and merge them.
+
+3. **Now you can continue working, commit, and push normally:**
+
+   ```sh
+   git add .
+   git commit -m "My latest changes"
+   git push origin main
+   ```
+
+---
+
+## **What If There’s a Conflict?**
+
+Sometimes, Git can’t automatically merge the new changes because they **clash with your local edits**. When this happens, Git will say:
+
+```
+CONFLICT (content): Merge conflict in filename
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+To fix it:
+
+- Open the conflicting file and look for **Git's conflict markers** (`<<<<<<<`, `=======`, `>>>>>>>`).
+- Manually decide which version to keep.
+- After fixing, stage and commit the resolved file:
+  ```sh
+  git add .
+  git commit -m "Resolved merge conflict"
+  git push origin main
+  ```
+
+---
+
+## **Summary**
+
+✅ **Pull before you push** to avoid conflicts.\
+✅ **Use ****`git pull origin main`** to get the latest updates.\
+✅ **Fix conflicts manually if needed, then commit and push.**
+
+With **pushing and pulling**, you can now **sync your project** between your computer and GitHub like a normal human being!
 
 ---
 
