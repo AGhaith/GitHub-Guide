@@ -1,3 +1,41 @@
+# Table of Contents
+
+## 1. [Why should you even care?](#why-should-you-even-care)
+   - [Why Git?](#why-git)
+   - [Why GitHub?](#why-github)
+
+## 2. [Git vs. GitHub (In Simple Terms)](#git-vs-github-in-simple-terms)
+
+## 3. [Git Terminology You Need to Know](#git-terminology-you-need-to-know)
+
+## 4. [Installing Git & Using the Terminal](#installing-git--using-the-terminal)
+
+## 5. [Files & Folders](#files--folders)
+   - [Organizing Files & Folders](#organizing-files--folders)
+
+## 6. [What is a Repository (Repo)?](#what-is-a-repository-repo)
+   - [Creating a Repository Using Git Bash](#creating-a-repository-using-git-bash)
+
+## 7. [Commits – Saving Your Work](#commits--saving-your-work)
+   - [Making a Commit](#making-a-commit)
+
+## 8. [Pushing to GitHub – Publishing Your Work](#pushing-to-github--publishing-your-work)
+   - [What is Pushing?](#what-is-pushing)
+
+## 9. [What is a README File?](#what-is-a-readme-file)
+   - [Why Should You Have a README?](#why-should-you-have-a-readme)
+   - [How to Create a README File](#how-to-create-a-readme-file)
+
+## 10. [Publishing (First-Time Push)](#publishing-first-time-push)
+
+## 11. [Pulling from GitHub – Keeping Your Work Updated](#pulling-from-github--keeping-your-work-updated)
+   - [What is Pulling?](#what-is-pulling)
+   - [Pulling Step-by-Step](#pulling-step-by-step)
+   - [What If There’s a Conflict?](#what-if-theres-a-conflict)
+
+## 12. [Branches – Working on Different Versions of Your Project](#branches--working-on-different-versions-of-your-project)
+   - [Why Use Branches?](#why-use-branches)
+   - [Creating & Switching Branches](#creating--switching-branches)
 # **Let's Talk About Git & GitHub**
 
 If you're here, you’re probably trying to figure out Git and GitHub. And yes, they’re **not** the same thing. But before we dive into how they work, let’s answer a more important question:  
