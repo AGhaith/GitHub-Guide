@@ -45,7 +45,7 @@ If you're here, you’re probably trying to figure out Git and GitHub. And yes, 
 ### **Why Git?**
 Picture this—you’re working on a project with four functions. You’ve successfully written the first three, but while coding the fourth, something goes **terribly wrong**. Errors everywhere. After hours of debugging, your code looks like a warzone. At this point, you wish you could just go back to when everything was working.  
 
-Now, you *could* do what we’ve all done—save multiple versions of your file:
+Now, you *could* do what we’ve all done and save multiple versions of your file:
 ```
 final.cpp  
 final2.cpp  
@@ -56,26 +56,26 @@ But let’s be real, that never ends well. It’s messy, confusing, and far from
 
 This is where **Git** comes in.  
 
-🔹 **Git is an offline technology** that keeps track of every version of your code, allowing you to go back to any point in time with ease. No more "final_final" file chaos.  
+🔹 **Git is an OFFLINE technology** that keeps track of every version of your code, allowing you to go back to any point in time with ease. No more "final_final" file chaos.  
 
 ---
 
 ### **Why GitHub?**
-Now, imagine we're working together on a project that has two functions. We agree that:
+Now, imagine we're working together on a project that consists of two functions. We agree that:
 - **I** will implement `function1()`.
 - **You** will implement `function2()`.  
 
 We have two choices:  
 
 #### **1. The WhatsApp nightmare:**
-You finish `function1()`, send me the file, and I start working on `function2()`. But what if multiple people are involved? What if someone makes a mistake? Suddenly, managing files becomes a **shitty, unbearable process**.  
+You finish `function1()`, send me the file, and I start working on `function2()`. But what if *5 or 10 or even 100* people are involved? What if someone makes a mistake? Suddenly, managing files becomes a **shitty, unbearable process**.  
 
 #### **2. The "merge disaster":**
 You create your own file and work on your function. I do the same. Now we have two separate files and have to **manually** merge them, hoping nothing clashes. Spoiler: **something always clashes.**  
 
 And this is **exactly** why GitHub exists.  
 
-🔹 **GitHub is an online platform** where Git-tracked projects are stored. It allows multiple people to work on the same project at the same time, without stepping on each other's toes.  
+🔹 **GitHub is an ONLINE platform** where Git-tracked projects are stored. It allows multiple people to work on the same project at the same time, without conflicting with each other.  
 
 ---
 
